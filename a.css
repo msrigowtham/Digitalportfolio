@@ -1,0 +1,49 @@
+/* Reset some default styles and set a basic font */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #5bbaf1;
+    color: #19171a;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #b4f142;
+    text-decoration: none;
+}
+
+/* Style the main content */
+main {
+    margin: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #f2fc70;
+    color: #23df1c;
+    text-align: center;
+    padding: 10px;
+}
